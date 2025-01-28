@@ -36,34 +36,24 @@ a {
   transform: translateX(-50%);
   padding-right: 30%;
   box-sizing: border-box;
-  color: #fff;
+  color: #000000;
   text-shadow: 0 5px 10px #0004;
 }
 .container .list .item .title {
   font-size: 5em;
-  color: #f1683a;
+  color: #a17d71;
   font-weight: bold;
   line-height: 1.3em;
 }
-.container .list .item .buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 130px);
-  grid-template-rows: 40px;
-  gap: 5px;
-  margin-top: 20px;
-}
-.container .list .item .buttons button {
-  border: none;
-  background-color: #eee;
+.container .list .item button {
+  margin: 10px;
+  padding: 0.8rem;
+  border: 1px solid black;
+  background-color: #fff;
   letter-spacing: 3px;
-  font-family: Poppins;
   font-weight: 500;
 }
-.container .list .item .buttons button:nth-child(2) {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #eee;
-}
+
 /* thumbail */
 .thumbnail {
   position: absolute;
